@@ -99,8 +99,8 @@ How it works:
 Requires Python 3.14+ and [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/mmmelowang/analyst-copilot.git
-cd analyst-copilot
+git clone https://github.com/mmmelowang/MCP-for-SEC-filings.git
+cd MCP-for-SEC-filings
 uv sync
 ```
 
@@ -138,7 +138,7 @@ Add an `mcpServers` entry to `~/Library/Application Support/Claude/claude_deskto
   "mcpServers": {
     "analyst-copilot": {
       "command": "/absolute/path/to/uv",
-      "args": ["--directory", "/absolute/path/to/analyst-copilot", "run", "server.py"],
+      "args": ["--directory", "/absolute/path/to/MCP-for-SEC-filings", "run", "server.py"],
       "env": { "EDGAR_IDENTITY": "Your Name your.email@example.com" }
     }
   }
